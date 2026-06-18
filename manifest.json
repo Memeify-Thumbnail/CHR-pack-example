@@ -1,7 +1,7 @@
 {
   "character_name": "MrBeast",
   "description": "MrBeast（Jimmy Donaldson）——全球头部YouTube创作者，以夸张的挑战、巨额奖金和慈善壮举闻名。本角色包将他标志性的表情与姿态植入YouTube缩略图，让你的每一次浏览都充满惊喜与点击欲。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "icon.png",
   "author": "Memeify-Thumbnail",
   "version_check_url": "https://api.github.com/repos/Memeify-Thumbnail/CHR-pack-example/releases/latest",
