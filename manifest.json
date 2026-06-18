@@ -1,25 +1,8 @@
 {
-    "manifest_version": 2,
-    "name": "YouTube MrBeastify",
-    "version": "1.9.0",
-    "icons": {
-        "96": "icon.png"
-    },
-    "description": "Modify YouTube thumbnails to include MrBeast",
-    "browser_action": {
-        "default_popup": "settings.html"
-    },
-    "permissions": [
-        "storage",
-        "*://*.youtube.com/*"
-    ],
-    "content_scripts": [{
-        "matches": ["*://*.youtube.com/*"],
-        "js": ["mrbeastify.js"],
-        "run_at": "document_idle"
-    }],
-    "web_accessible_resources": [
-        "images/*.png",
-        "images/*.json"
-    ]
+  "character_name": "MrBeast",
+  "description": "MrBeast（Jimmy Donaldson）——全球头部YouTube创作者，以夸张的挑战、巨额奖金和慈善壮举闻名。本角色包将他标志性的表情与姿态植入YouTube缩略图，让你的每一次浏览都充满惊喜与点击欲。",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "version_check_url": "https://api.github.com/repos/Memeify-Thumbnail/CHR-pack-example/releases/latest",
+  "update_url": "https://github.com/Memeify-Thumbnail/CHR-pack-example/archive/refs/tags/1.0.0.zip"
 }
